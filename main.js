@@ -5,7 +5,7 @@ function setup(){
     video.size(300, 300);
     video.hide();
   
-      classifier = ml5.imageClassifier('https://storage.googleapis.com/tm-model/v_sl95BzE/model.json' , console.log('Loaded'));
+      classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/2ObJSbWkn/model.json' , console.log('Loaded'));
     
 }
 function draw(){
