@@ -1,0 +1,41 @@
+.heading {
+    font-size: 30px;
+    font-family: 'Texturina', serif;
+    width: 100%;
+    margin: 0;
+    box-shadow: 5px 5px 5px #ffd700;
+    color: #4b0082;
+}
+
+.heading_div {
+    float: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #4b0082;
+}
+
+.heading_div1 {
+    font-size: 13px;
+}
+
+body,
+html {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+canvas{
+    border: 5px groove black;
+    border-radius: 20px;
+    margin-top: 300;
+    margin-bottom: 50px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: #4b0082;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffd700;
+    font-size: 20px;
+    padding: 10px;
+}
